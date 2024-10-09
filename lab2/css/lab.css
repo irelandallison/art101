@@ -5,7 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #030303;
-    background-color: #f3bbe4;
+    background-color: #e9c0f1;
   }
 p{
   font-family:Verdana, Geneva, Tahoma, sans-serif 
@@ -17,10 +17,7 @@ h2{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
 }
 body{
-  background-color: rgb(71, 104, 196)
-}
-body{
-  p.dotted {border-style: dotted;}
+  background-color: black
 }
 
 
