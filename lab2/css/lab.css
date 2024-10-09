@@ -19,7 +19,6 @@ h2{
 body{
   background-color: rgb(42, 136, 42);
 }
-body.minor-section{
+body.two{
   background-color: aliceblue;
 }
-
