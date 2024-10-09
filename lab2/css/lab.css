@@ -18,6 +18,8 @@ h2{
 }
 body{
   background-color: black
+}
+body{
   p.dotted {border-style: dotted;}
 }
 
