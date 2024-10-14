@@ -5,6 +5,6 @@ img {
   width: 500px;  /* Set the desired width */
   height: auto;  /* Keep aspect ratio */
 }
-body {
+div {
   background-color: darkmagenta;
 }
