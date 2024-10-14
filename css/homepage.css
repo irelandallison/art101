@@ -5,6 +5,15 @@ img {
   width: 500px;  /* Set the desired width */
   height: auto;  /* Keep aspect ratio */
 }
+body {
+  background-color: #f0f0f0;
+}
+
 h1 {
-  border: coral
+  color: darkblue;
+  border: 2px solid green;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
 }
