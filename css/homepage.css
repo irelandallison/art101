@@ -7,3 +7,7 @@
 #picture.jpg {
   width: 500px;
 }
+.picture.jpg {
+  width: 100px;  /* Set the desired width */
+  height: auto;  /* Keep aspect ratio */
+}
