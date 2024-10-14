@@ -5,6 +5,15 @@ img {
   width: 500px;  /* Set the desired width */
   height: auto;  /* Keep aspect ratio */
 }
-body {
-  background-color: blueviolet;
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+body{
+  background-color: black
 }
