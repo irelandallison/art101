@@ -5,6 +5,6 @@ img {
   width: 500px;  /* Set the desired width */
   height: auto;  /* Keep aspect ratio */
 }
-div {
-  background-color: #f0f0f0; /* Hex code */
+h1 {
+  border: coral
 }
