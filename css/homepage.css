@@ -1,7 +1,7 @@
 /* this css file will only style the homepage of our site */
 
 
-.picture.jpg {
+img {
   width: 100px;  /* Set the desired width */
   height: auto;  /* Keep aspect ratio */
 }
