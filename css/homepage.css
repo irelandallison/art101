@@ -1,9 +1,6 @@
 /* this css file will only style the homepage of our site */
 
-.picture.jpeg {
+.picture.jpg {
   margin: 10px;
   max-width: 500px;
-}
-#picture.jpeg {
-  width: 500px;
 }
