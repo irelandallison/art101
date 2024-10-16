@@ -7,3 +7,18 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  <style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: black; /* Set text color to black */
+  }
+  h1 {
+      color: black; /* Ensure heading is black */
+  }
+  ol {
+      margin-left: 20px;
+  }
+</style>
