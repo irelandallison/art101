@@ -1,6 +1,21 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - an impelmentation of Rock Paper Scissors
+// Author: Ireland Allison
+// Date: 10/16/24
+
+// Set Up the Game Environment
+  // Provide options for the player to choose between "Rock," "Paper," or "Scissors." 
+// Handle Player Input
+  // Wait for the player to select one of the options (Rock, Paper, or Scissors). 
+  // Validate the player's input. 
+// Generate the Computer's Choice
+// Compare Player and Computer Choices
+// Display the Result
+  // Show the player's choice and the computer's choice. 
+  // Announce the outcome (Win, Loss, or Tie). 
+// Ask the Player if They Want to Play Again
+// Handle End of Game
+
+
 
 // Constants
 
