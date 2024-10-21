@@ -8,7 +8,7 @@
     background-color: #DDD8C4;
   }
 
-img {
-  width: 500px;
-  height:auto
+  .img {
+    width: 200px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
 }
