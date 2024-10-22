@@ -1,6 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - learning arrays and objects in JavaScript
+// Author: Ireland Allison
+// Date: 10/24/24
+
+// Define Variabes
+let myTransport = ["bike", "walk", "bus", "carpool"];
+
+//Object for myMainRide
+let myMainRide = {
+  make: "Jeep",
+  model: "Grand Cherokee",
+  color: "blue grey", 
+  year: 2006,
+  age: function() { return 2024 - this.year; }
+}
+
+//Output
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
 
 // Constants
 
