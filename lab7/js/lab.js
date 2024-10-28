@@ -10,4 +10,4 @@ function sortUserName (){
   return userName.toLowerCase().split('').sort().join('');
 }
 
-document.writeIn("here is your new name! hope you like it: ", sortUserName(), "</br>");
+document.writeln("here is your new name! hope you like it: ", sortUserName(), "</br>");
