@@ -3,7 +3,12 @@
 // Date: 11/4/24
 
 // add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+
+// add button to problems section
+$("#problems").append("<button id='button-problems'>Make Special</button>");
 
 
-
+// add button to results section
+$("#results").append("<button id='button-results'>Make Special</button>");
 
