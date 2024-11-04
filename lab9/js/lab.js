@@ -20,7 +20,6 @@ $("button-problems").click(function(){
     $("#problems").toggleClass("special");
 });
 
-
 // add button to results section
 $("#results").append("<button id='button-results'>Make Special</button>");
 
