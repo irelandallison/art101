@@ -24,6 +24,6 @@ var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() { 
 var name = document.getElementById("input").value;
 var house = sortingHat(name);
-newText = "<p> Ireland's Cafe has sorted you into this type of coffee drinker: " + house + " </p>";
+newText = "<p> The barista has sorted you into this type of coffee drinker: " + house + " </p>";
 document.getElementById("output").innerHTML = newText;
 })
