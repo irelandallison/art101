@@ -1,9 +1,34 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    /* Style the button */
+    button {
+        padding: 10px 20px; /* Add padding for a comfortable click area */
+        border-radius: 5px; /* Rounded corners for a sleek look */
+        border: none; /* Remove default button borders */
+        background-color: #4CAF50; /* Set background color to a pleasing green shade */
+        color: white; /* Set text color to white for contrast */
+        font-size: 16px; /* Increase the font size slightly for better readability */
+    }
+
+    /* Add hover effect to the button */
+
+    button:hover { 
+        background-color:#45a049;
+            /* Lighten the background color on hover 
+                to provide visual feedback and make it more interactive
+            */
+        cursor:pointer;
+            /* Change cursor to pointer when hovering over 
+                the button indicating it is clickable.
+            */
+   }
+</style> 
