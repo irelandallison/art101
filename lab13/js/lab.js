@@ -1,3 +1,3 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - experimenting with loops
+// Author: Ireland Allison
+// Date: 11/18/24
