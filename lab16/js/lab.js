@@ -6,25 +6,21 @@ $.ajax({
     url: "https://api.allorigins.win/raw?url=https://xkcd.com/info.0.json",
     type: "GET",
     success: function(comicObj) {
+        console.log(comicObj);  // Check what data you're getting
         let outputDiv = $("#output");
 
-        // Create title and image elements
         let comicTitle = $("<h3>").text(comicObj.title);
         let comicImage = $("<img>")
             .attr("src", comicObj.img)
             .attr("alt", comicObj.alt)
             .attr("title", comicObj.alt);
 
-        // Update the output div with the comic
         outputDiv.empty()
             .append(comicTitle)
             .append(comicImage);
     },
     error: function(jqXHR, textStatus, errorThrown) {
-        console.error("Error:", textStatus, errorThrown);
+        console.log("Error:", textStatus, errorThrown);
         $("#output").text("Sorry, could not retrieve comic.");
     }
 });
-
-
-
